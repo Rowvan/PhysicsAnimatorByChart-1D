@@ -1,14 +1,12 @@
 /*
- * Orion Mulgrew
- * P8 Kintzel
- * Project: U1 Motion
+ * Rowvan
+ * Project: Animating Motion 1D
  * File: Main Function Definition
  * Start: 9/19/2022
  */
 
 #include<iostream>
 #include"Cart.h"
-#include"Equation.h"
 #include"Table.h"
 #include<Windows.h>
 #include<cmath>
@@ -61,36 +59,36 @@ int main()
     string temp;
     cout << "Edit Default Settings? Enter Letters Only, Not Words (y/n): ";
     cin >> temp;
-    if (temp == "y" or temp == "Y")
+    if (temp == "y" || temp == "Y")
     {
         system("cls");
         cout << "Show General Logs? Default: no (y/n): ";
         cin >> temp;
-        if (temp == "y" or temp == "Y")
+        if (temp == "y" || temp == "Y")
             general_show_logs = true;
 
         system("cls");
         cout << "Show Animation Logs? Default: no (y/n): ";
         cin >> temp;
-        if (temp == "y" or temp == "Y")
+        if (temp == "y" || temp == "Y")
             anim_show_logs = true;
 
         system("cls");
         cout << "Show Animation Frames? Default: yes (y/n): ";
         cin >> temp;
-        if (temp == "n" or temp == "N")
+        if (temp == "n" || temp == "N")
             show_anim_frames = false;
 
         system("cls");
         cout << "Show End Animation Logs? Default: yes (y/n): ";
         cin >> temp;
-        if (temp == "n" or temp == "N")
+        if (temp == "n" || temp == "N")
             anim_show_end_logs = false;
 
         system("cls");
         cout << "Warn Animation too Long? Default: yes (y/n): ";
         cin >> temp;
-        if (temp == "n" or temp == "N")
+        if (temp == "n" || temp == "N")
             warn_anim_len = false;
 
         if (warn_anim_len)

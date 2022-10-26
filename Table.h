@@ -1,7 +1,6 @@
 /*
- * Orion Mulgrew
- * P8 Kintzel
- * Project: U1 Motion
+ * Rowvan
+ * Project: Animating Motion 1D
  * File: Table Header
  * Start: 9/19/2022
  */
