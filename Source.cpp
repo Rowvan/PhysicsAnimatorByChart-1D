@@ -29,7 +29,7 @@ int main()
 
     if (tutorialq == "y" || tutorialq == "Y")
     {
-        string tutorial = "1. Settings - Explore settings or ask Orion for how-to.";
+        string tutorial = "1. Settings - Explore settings or ask for how-to.";
         tutorial +=     "\n2. Table Input - Input your table to calculate unkowns and animate motions.";
         tutorial +=     "\n3. Table Input - If you want to make up your own values, make sure you know what it all means.";
         tutorial +=     "\n4. Animation - Sit back and relax.";
